@@ -41,11 +41,13 @@ export const buildTree = (appendix: Object): TreeNode => {
 
       //if not exists in map , create entry
       if (!treeNodesMap.has(path)) {
+        let updatedIssues = issues;
+
         treeNodesMap.set(path, {
           url: path,
           parent: parent,
           children: [],
-          issues: path === url ? issues : undefined
+          issues: path === url ? updatedIssues : undefined
         });
       }
     });

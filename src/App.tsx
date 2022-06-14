@@ -3,6 +3,7 @@ import { appendix } from "./data";
 import Tree from "./components/Tree";
 import { useState } from "react";
 import { DataIssue } from "./components/types";
+import { log } from "console";
 
 function App() {
   const [issuesList, setIssuesList] = useState<DataIssue[]>([]);
@@ -19,7 +20,7 @@ function App() {
           {issuesList?.map((issue, index) => {
             return (
               <li key={index}>
-                {}
+                {issue.url}
                 {`component: ${issue.component} selector: ${issue.selector} type:${issue.type}`}
               </li>
             );

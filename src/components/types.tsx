@@ -3,6 +3,7 @@ export interface DataIssue {
   readonly severity: string;
   readonly component: string;
   readonly selector: string;
+  readonly url: string;
 }
 
 export interface TreeNode {

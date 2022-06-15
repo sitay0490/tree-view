@@ -19,7 +19,6 @@ const Tree = (props: TreeProps): JSX.Element => {
       </span>
       <span onClick={handleClick}> {props.node.url}</span>
       <div
-        className=""
         style={{
           position: "relative",
           display: "flex",

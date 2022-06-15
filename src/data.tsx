@@ -37,7 +37,3 @@ export const appendix = {
   "https://www.ynet.co.il/home/0,7340,L-10677,00.html": [ISSUE_DUMMY_TWO],
   "https://www.ynet.co.il/home/0,7340,L-2758,00.html": []
 };
-
-// export const appendix = Object.entries(appendix2).forEach(([url, issues]) => {
-//   ii
-// })

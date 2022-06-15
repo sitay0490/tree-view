@@ -41,7 +41,9 @@ export const buildTree = (appendix: Object): TreeNode => {
 
       //if not exists in map , create entry
       if (!treeNodesMap.has(path)) {
-        let updatedIssues = issues;
+        let updatedIssues = issues.map((issue: DataIssue) => {
+          return { ...issue, url: url };
+        });
 
         treeNodesMap.set(path, {
           url: path,

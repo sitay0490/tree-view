@@ -4,7 +4,8 @@ const ISSUE_DUMMY_ONE: DataIssue = {
   type: "Accessible Name",
   severity: "Critical",
   component: "6543wcfr",
-  selector: "#tbl_mt > TBODY:nth-child(2) > TR:nth-child(1) > TD:nth-child(6)"
+  selector: "#tbl_mt > TBODY:nth-child(2) > TR:nth-child(1) > TD:nth-child(6)",
+  url: "https://www.ynet.co.il/dating/singles"
 };
 
 const ISSUE_DUMMY_TWO: DataIssue = {
@@ -12,7 +13,8 @@ const ISSUE_DUMMY_TWO: DataIssue = {
   severity: "Critical",
   component: "xydww2ed",
   selector:
-    "#BJrajb3MOdP > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(2)"
+    "#BJrajb3MOdP > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(2)",
+  url: "https://www.ynet.co.il/dating/singles"
 };
 
 export const appendix = {
